@@ -12,7 +12,7 @@ function Login() {
     e.preventDefault();
     axios
       .post(`${apiUrl}/app/user/login`, data, {
-        header: {
+        headers: {
           "Content-Type": "application/json",
           "Access-Control-Allow-Origin": "*",
         },
