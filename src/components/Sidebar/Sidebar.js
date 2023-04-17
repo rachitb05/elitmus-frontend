@@ -21,7 +21,12 @@ const Sidebar = () => {
   // const { dispatch } = useContext(DarkModeContext);
     const logout=async()=>{
 
-    const res=await axios.get(`${apiURL}/app/user/LogOut`, { withCredentials: true })
+    const res=await axios.get(`${apiURL}/app/user/LogOut`, {
+      headers: { "Content-Type": "application/json",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Credentials": true },
+      withCredentials: true,
+    })
     navigate('/adminlogin')
     console.log(res)
     }

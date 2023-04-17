@@ -17,7 +17,12 @@ const Chart = ({ aspect, title }) => {
   useEffect(() => {
     const getData = async () => {
       try {
-        const res = await axios.get(`${apiURL}/app/user/findAllUser`, { withCredentials: true })
+        const res = await axios.get(`${apiURL}/app/user/findAllUser`, {
+          headers: { "Content-Type": "application/json",
+          "Access-Control-Allow-Origin": "*",
+          "Access-Control-Allow-Credentials": true },
+          withCredentials: true,
+        })
         // console.log(res)
         setData(res.data)
       } catch (e) {

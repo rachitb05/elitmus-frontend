@@ -14,6 +14,9 @@ function Home() {
   const logOut = () => {
     axios
       .get(`${apiUrl}/app/user/logout`, {
+        headers: { "Content-Type": "application/json",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Credentials": true },
         withCredentials: true,
       })
       .then((response) => {

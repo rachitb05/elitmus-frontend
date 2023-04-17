@@ -12,7 +12,12 @@ const AdminHome = () => {
   const [attempts, setAttempts] = useState(0);
   useEffect(() => {
     const getData = async () => {
-      const res = await axios.get(`${apiURL}/app/user/findAllUser`, { withCredentials: true });
+      const res = await axios.get(`${apiURL}/app/user/findAllUser`, {
+        headers: { "Content-Type": "application/json",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Credentials": true },
+        withCredentials: true,
+      });
       console.log(res.data);
       setData(res.data);
     };
