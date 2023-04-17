@@ -17,9 +17,9 @@ function Register() {
     axios
       .post(`${apiUrl}/app/user/register`, data)
       .then((response) => {
-        console.log(response.data);
+         console.log(response.data);
         typeof response.data === "object"
-          ? navigate("/home")
+          ? navigate("/")
           : alert(response.data);
       })
       .catch((error) => {
