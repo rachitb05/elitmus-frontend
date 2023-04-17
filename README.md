@@ -1,6 +1,12 @@
 # Connect Game
 
-Link- https://elitmus-frontend.vercel.app
+### Live Link (frontend)- https://elitmus-frontend.vercel.app
+
+### Live Link (backend) - https://elitmus-backend.vercel.app/
+
+### GitHub Link (frontend)- https://github.com/rachitb05/elitmus-frontend 
+
+### GitHub Link (backend)- https://github.com/rachitb05/elitmus-backend
 
 Connect is a simple game built using React where users have to guess the link between 4 pictures. The game is designed to test the user's ability to recognize patterns and make connections between seemingly unrelated objects.
 
@@ -29,7 +35,9 @@ The game consists of 4 rounds.
 The Connect game was built using the following technologies:
 
 1.React: a JavaScript library for building user interfaces
+
 2.HTML: the markup language used to structure the game's interface
+
 3.SCSS: the styling language used to design the game's interface
 
 ## Contributing
