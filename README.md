@@ -14,10 +14,14 @@ Connect is a simple game built using React where users have to guess the link be
 
 To run the game locally, follow the steps below:
 
-1.Clone this repository to your local machine using git clone https://github.com/your-username/connect-game.git
+1.Clone this repository to your local machine using git clone [https://github.com/your-username/connect-game.git](https://github.com/rachitb05/elitmus-frontend.git)
+
 2.Navigate to the project directory using cd connect-game
+
 3.Install the required dependencies using npm install
+
 4.Run the game using npm start
+
 5.Open http://localhost:3000 in your browser to play the game.
 
 ## How to Play
