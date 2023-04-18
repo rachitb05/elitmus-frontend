@@ -17,7 +17,7 @@ const Widget = ({ type,attempts,users }) => {
       data = {
         title: "USERS",
         isMoney: false,
-        link: "See all users",
+//         link: "See all users",
         icon: (
           <PersonOutlinedIcon
             className="icon"
@@ -33,7 +33,7 @@ const Widget = ({ type,attempts,users }) => {
       data = {
         title: "ATTEMPTS",
         isMoney: false,
-        link: "View all orders",
+//         link: "View all orders",
         icon: (
           <ShoppingCartOutlinedIcon
             className="icon"
@@ -49,7 +49,7 @@ const Widget = ({ type,attempts,users }) => {
       data = {
         title: "EARNINGS",
         isMoney: true,
-        link: "View net earnings",
+//         link: "View net earnings",
         icon: (
           <MonetizationOnOutlinedIcon
             className="icon"
@@ -72,7 +72,7 @@ const Widget = ({ type,attempts,users }) => {
           {type==='user'&&users}
           {type==='attempts'&&attempts}
         </span>
-        <span className="link">{data.link}</span>
+//         <span className="link">{data.link}</span>
       </div>
       <div className="right">
         <div className="percentage positive">
