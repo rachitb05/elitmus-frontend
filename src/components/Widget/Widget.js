@@ -72,7 +72,6 @@ const Widget = ({ type,attempts,users }) => {
           {type==='user'&&users}
           {type==='attempts'&&attempts}
         </span>
-//         <span className="link">{data.link}</span>
       </div>
       <div className="right">
         <div className="percentage positive">
