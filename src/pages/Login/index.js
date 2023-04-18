@@ -65,6 +65,9 @@ function Login() {
         <h4>
           Are you an Admin? <Link to="/adminlogin">Login</Link>
         </h4>
+        <h4>
+            Made by Rachit Bhatia (200104045@hbtu.ac.in)
+        </h4>
       </div>
     </div>
   );
