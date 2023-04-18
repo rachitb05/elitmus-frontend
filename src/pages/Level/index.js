@@ -186,7 +186,7 @@ function Level() {
           <h4>Level {level}</h4>
         </div>
         <div className="heading">
-          <h1>GuessGame</h1>
+          <h1>Connect</h1>
         </div>
         <div className="deadendContainer">
           <div className="lifeContainer">
