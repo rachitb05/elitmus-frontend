@@ -37,7 +37,7 @@ function Register() {
         <form onSubmit={handleSubmit}>
           <input type="text" placeholder="display name" />
           <input type="email" placeholder="email" />
-          <input type="password" placeholder="password" />
+          <input type="password" placeholder="password (min 8 characters)" />
           {/* Here we have used label to take the file input using id file and putting the image and not displaying the input of type file */}
           {/* <input style={{ display: "none" }} type="file" id="file" />
           <label htmlFor="file">
